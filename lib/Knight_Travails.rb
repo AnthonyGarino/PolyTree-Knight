@@ -49,7 +49,7 @@ class KnightPathFinder
   def find_path()
     
     node = @root.bfs(@target_position)
-    puts trace_back_path(node)
+    p trace_back_path(node)
   end
 
   def new_move_positions(pos)
